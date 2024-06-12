@@ -1,5 +1,4 @@
-import Swiper from 'react-id-swiper';
-// import 'swiper/css/swiper.css';
+
 import img from "../assets/adult-woman-posing-mall 2.png"
 
 const Testimonial = () => {
