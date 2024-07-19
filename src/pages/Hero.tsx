@@ -3,10 +3,10 @@ import img2 from "../assets/man-red-shirt-using-digital-tablet 1.png"
 
 const Hero = () => {
   return (
-    <div className="w-[100%] flex h-[100%] pt-[100px] justify-center">
+    <div className="w-[100%] flex h-[100%] pt-[100px] justify-center ">
         <div className="w-[90%] flex justify-between">
             <div className="w-[48%] flex flex-col mt-[90px]">
-                <h1 className="text-[55px] w-[500px] font-[400] leading-tight">Your online store that allows you</h1>
+                <h1 className="text-[55px]  w-[500px] md:w-[100%] sm:w-[100%] font-[400] leading-tight">Your online store that allows you</h1>
                 <h1 className="text-[55px] font-[600] text-[#0030AD]">Pay with crypto</h1>
 
                 <p className="text-[17px] mt-[10px] font-[500] w-[460px] leading-[30px]">
