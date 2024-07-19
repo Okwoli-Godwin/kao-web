@@ -3,8 +3,8 @@ import img from "../assets/cheerful-women-shopping-taking-selfie 1.png"
 const Updates = () => {
   return (
     <div className="w-[100%] flex justify-center mt-[120px]">
-        <div className="w-[90%] flex items-center overflow-hidden rounded-tr-[10px] rounded-bl-[10px]">
-            <div className="w-[50%] h-[550px]">
+        <div className="w-[90%] flex items-center overflow-hidden rounded-tr-[10px] rounded-bl-[10px] md:flex-wrap sm:flex-wrap xsm:flex-wrap">
+            <div className="w-[50%] md:w-[100%] h-[550px]">
                 <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
               </div>
               <div className="w-[50%] bg-[#0030AD] h-[100%] flex flex-col justify-center pl-[22px]">

@@ -16,8 +16,8 @@ const HomeScreen = () => {
       <Overview />
       <Offerings />
       <Faqs />
-      <Updates />
-      <Testimonial />
+       <Updates />
+      // <Testimonial /> 
     </div>
   )
 }
