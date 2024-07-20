@@ -2,9 +2,9 @@ import img from "../../assets/woman-summarizing-work-meeting 1.png"
 
 const DetailPage = () => {
   return (
-    <div className="w-[100%] flex h-[100%] pt-[130px] items-center justify-center">
-        <div className="w-[90%] flex items-center justify-between">
-            <div className="w-[45%] h-[550px] rounded-tr-[15px] rounded-bl-[15px] overflow-hidden">
+    <div className="w-[100%] flex h-[100%] pt-[130px] items-center justify-center overflow-hidden">
+        <div className="w-[90%] md:flex-wrap sm:flex-wrap xsm:flex-wrap  flex items-center justify-between overflow-[hidden]">
+            <div className="w-[45%] md:w-[100%] h-[550px] rounded-tr-[15px] rounded-bl-[15px] overflow-hidden">
                 <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
             </div>
 
