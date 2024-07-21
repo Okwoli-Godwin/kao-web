@@ -12,7 +12,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }: any) => {
           isOpen ? "border-t-[2px] border-[#DE801C]" : ""
         }`} onClick={onClick}>
 
-                <p className="text-[#0030AD] text-[13px] md:text-[17px] sm:text-[15px] xsm:text-[15px] font-[600]">{question}</p>
+                <p className="text-[#0030AD] text-[16px] md:text-[17px] sm:text-[15px] xsm:text-[15px] font-[600]">{question}</p>
                 <RiArrowDropDownLine className={`text-3xl text-[#0030AD] transition-transform duration-500 ${isOpen ? "rotate-180" : ""}`} />
 
             </button>
@@ -26,7 +26,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }: any) => {
             : { height: "0px" }
         }
             >
-                <p className="py-[12px] text-[12px] md:text-[15px] sm:text-[15px] xsm:text-[15px] leading-[30px]">{answer}</p>
+                <p className="py-[12px] text-[15px] font-[500] md:text-[15px] sm:text-[15px] xsm:text-[15px] leading-[30px]">{answer}</p>
             </div>
         </div>
     )

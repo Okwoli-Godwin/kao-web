@@ -9,7 +9,7 @@ import Updates from "./Updates"
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
       <Featured />
       <Choose />
