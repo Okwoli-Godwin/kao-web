@@ -1,39 +1,8 @@
 import img from "../assets/adult-woman-posing-mall 2.png";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 const Testimonial = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    focusOnSelect: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
-  };
+
 
   return (
     <div className="w-[100%] mt-[90px] flex justify-center">
@@ -63,48 +32,6 @@ const Testimonial = () => {
 
       </div>
     </div>
-  );
-};
-
-const PrevArrow = (props:any) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "gray",
-        borderRadius: "50%",
-        position: "absolute",
-        top: "50%",
-        transform: "translateY(-50%)",
-        left: "20px",
-        zIndex: 1,
-      }}
-      onClick={onClick}
-    />
-  );
-};
-
-const NextArrow = (props:any) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "gray",
-        borderRadius: "50%",
-        position: "absolute",
-        top: "50%",
-        transform: "translateY(-50%)",
-        right: "20px",
-        zIndex: 1,
-      }}
-      onClick={onClick}
-    />
   );
 };
 

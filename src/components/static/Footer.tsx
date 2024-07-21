@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mt-[23px] md:mb-[25px] hidden sm:flex xsm:flex">
+        <div className=" flex-col mt-[23px] md:mb-[25px] hidden sm:flex xsm:flex">
             <h4 className="text-[#fff] font-[500] text-[13px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Keep up to date with us</h4>
             <div className="flex items-center mt-[12px]">
               <div className="w-[28px] h-[28px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">

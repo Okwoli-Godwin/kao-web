@@ -1,6 +1,6 @@
 import img from "../assets/Frame 546.png"
 import Accordion from "../components/Ui/Accordion"
-import { Fade, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Faqs = () => {
   return (
