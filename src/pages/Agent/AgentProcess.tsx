@@ -10,11 +10,11 @@ const AgentProcess = () => {
                   <div className="h-[2px] w-[350px] bg-[#fff] ml-[12px]"></div>
                 </div>
                 
-                <h3 className="text-[#fff] text-[20px] md:text-[25px] sm:text-[20px] xsm:text-[18px] font-[200] mt-[26px]">
+                <h3 className="text-[#fff] text-[23px] md:text-[25px] sm:text-[20px] xsm:text-[18px] font-[500] mt-[26px]">
                   Verification Process
                 </h3>
                 
-                <p className="text-[#fff] text-[13px] md:text-[15px] sm:text-[15px] xsm:text-[15px] font-[100] leading-[30px] mt-[15px]">
+                <p className="text-[#fff] text-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px] font-[400] leading-[30px] mt-[15px]">
                   Clear guidelines and procedures for store verification, ensuring compliance with quality standards and regulations
                 </p>
             </div>
@@ -24,11 +24,11 @@ const AgentProcess = () => {
                   <div className="h-[2px] w-[350px] bg-[#fff] ml-[12px]"></div>
                 </div>
                 
-                <h3 className="text-[#fff] text-[20px] md:text-[25px] font-[200] mt-[26px] sm:text-[20px] xsm:text-[18px]">
+                <h3 className="text-[#fff] text-[23px] md:text-[25px] font-[500] mt-[26px] sm:text-[20px] xsm:text-[18px]">
                   Training and Support
                 </h3>
                 
-                <p className="text-[#fff] text-[13px] md:text-[15px] sm:text-[15px] xsm:text-[15px] font-[100] leading-[30px] mt-[15px]">
+                <p className="text-[#fff] text-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px] font-[400] leading-[30px] mt-[15px]">
                   Comprehensive training and support provided to agents to effectively carry out their roles and responsibilities.
                 </p>
             </div>
@@ -38,11 +38,11 @@ const AgentProcess = () => {
                   <div className="h-[2px] w-[350px] bg-[#fff] ml-[12px]"></div>
                 </div>
                 
-                <h3 className="text-[#fff] text-[20px] md:text-[25px] font-[200] mt-[26px] sm:text-[20px] xsm:text-[18px]">
+                <h3 className="text-[#fff] text-[23px] md:text-[25px] font-[500] mt-[26px] sm:text-[20px] xsm:text-[18px]">
                   Rewards and Recognition
                 </h3>
                 
-                <p className="text-[#fff] text-[13px] font-[100] leading-[30px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">
+                <p className="text-[#fff] text-[15px] font-[400] leading-[30px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">
                    Incentives and rewards for agents based on their performance and contribution to maintaining the integrity of the platform.
                 </p>
             </div>
