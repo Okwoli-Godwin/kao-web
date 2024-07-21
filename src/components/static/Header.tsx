@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className="w-[100%] h-[70px]  flex items-center justify-center fixed bg-[#fff] z-[20]">
       <div className="w-[90%] h-[100%] flex items-center justify-between">
-        <NavLink onClick={closeSidebar} to="/" className="ml-[-16px] md:ml-[0px] sm:ml-[0px] xsm:ml-[0px]" style={{textDecoration: "none", background: "none", }}>
+        <NavLink onClick={closeSidebar} to="/" className="ml-[-16px] md:ml-[-0px] sm:ml-[-0px] xsm:ml-[-5px]" style={{textDecoration: "none", background: "none", }}>
           <img src={img} alt="" className="h-[40px]"/>
         </NavLink>
 
