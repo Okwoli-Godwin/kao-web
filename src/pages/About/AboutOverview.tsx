@@ -4,10 +4,10 @@ import img from "../../assets/man-introducing-himself-employers-office-job-inter
 
 const AboutOverview = () => {
   return (
-    <div className="w-[100%] flex justify-center  mt-[220px] md:mt-[80px] sm:mt-[80px] xsm:mt-[60px]">
+    <div className="w-[100%] flex justify-center  mt-[140px] md:mt-[80px] sm:mt-[80px] xsm:mt-[60px]">
         <div className="w-[75%] md:w-[90%] sm:w-[90%] xsm:w-[90%] flex flex-col items-center md:flex-wrap sm:flex-wrap xsm:flex-wrap">
             <div className="flex items-center w-[100%]">
-                <div className="w-[350px] sm:w-[150px] xsm:w-[150px] h-[3px] bg-[#0030AD]"></div>
+                <div className="w-[420px] sm:w-[150px] xsm:w-[150px] h-[3px] bg-[#0030AD]"></div>
                 <h1 className="text-[33px] sm:text-[26px] xsm:text-[23px] font-[600] ml-[20px]">KAO Overview</h1>
             </div>
 

@@ -3,7 +3,7 @@ import { Slide } from "react-awesome-reveal";
 
 const AgentHero = () => {
   return (
-    <div className="w-[100%] flex h-[100%] pt-[130px] justify-center">
+    <div className="w-[100%] flex h-[100%] pt-[150px] sm:pt-[120px] xsm:pt-[50px] md:pt-[70px] justify-center">
         <div className="w-[90%] md:flex-wrap sm:flex-wrap xsm:flex-wrap flex justify-between items-center">
             <Slide className="w-[48%] sm:w-[100%] xsm:w-[100%] md:w-[100%]" duration={2000}>
                 <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col md:mb-[50px] sm:mb-[40px] xsm:mb-[35px]">

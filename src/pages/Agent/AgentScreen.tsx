@@ -5,7 +5,7 @@ import AgentProcess from "./AgentProcess"
 
 const AgentScreen = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <AgentHero />
         <AgentProcess />
         <Testimonial />
