@@ -10,7 +10,7 @@ const AboutHero = () => {
                 <h1 className="text-[55px] text-[#0030AD] font-[600] sm:text-[30px] xsm:text-[30px]">KAO STORY</h1>
 
                 <p className="text-[18px] font-[500] md:text-[18px] sm:text-[15px] xsm:text-[15px] mt-[10px] leading-[30px]">
-                    KAO Online Stores was founded with the vision of breaking down barriers in global commerce. Our journey began with a commitment to providing a platform that empowers buyers and sellers worldwide
+                    At KAO, we believe in a world without borders, where commerce knows no bounds. Our story began with a bold vision: to connect customers worldwide with foreign manufacturers, unlocking access to a vast global market
                 </p>
 
                 <button className="w-[120px] h-[40px] flex justify-center items-center bg-[#0030AD] text-[#fff] rounded-[5px] mt-[35px]">Get Started</button>

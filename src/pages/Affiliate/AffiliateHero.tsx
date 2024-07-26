@@ -12,10 +12,10 @@ const AffiliateHero = () => {
         <div className="w-[90%] md:flex-wrap sm:flex-wrap xsm:flex-wrap flex items-center justify-between">
             <Slide className="w-[49%] sm:w-[100%] xsm:w-[100%] md:w-[100%]" duration={2000}>
                 <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col md:mb-[40px] sm:mb-[40px] xsm:mb-[40px]">
-                <h1 className="text-[38px] text-[#0030AD] font-[600]">Be An Affiliate</h1>
+                <h1 className="text-[38px] text-[#0030AD] font-[600]">Join the KAO Affiliate Program</h1>
 
                 <p className="text-[18px] font-[500] mt-[10px] leading-[30px]">
-                    KAO Online Stores was founded with the vision of breaking down barriers in global commerce. Our journey began with a commitment to providing a platform that empowers buyers and sellers worldwide
+                    Are you passionate about online marketing and eager to monetize your influence? Do you want to promote innovative products and earn commissions on every sale generated from your unique ads?
                 </p>
 
                 <button className="w-[120px] h-[40px] flex justify-center items-center bg-[#0030AD] text-[#fff] rounded-[5px] mt-[35px]">Get Started</button>
