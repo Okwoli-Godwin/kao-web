@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img from "../assets/Frame 531.png"
 import img2 from "../assets/young-woman-doing-shopping-online 1.png"
 import { Fade, Zoom } from "react-awesome-reveal";
@@ -16,7 +17,8 @@ const Choose = () => {
                 </p>
                 </Fade>
                 
-                <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] mt-[40px] rounded-tl-[12px] rounded-br-[12px]">
+                <Link to="/product&service">
+                  <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] mt-[40px] rounded-tl-[12px] rounded-br-[12px]">
                   <div className="flex">
                     <div>
                       <img src={img} alt="" />
@@ -27,8 +29,10 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
                 
-                <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
+                <Link to="/product&service">
+                  <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
                   <div className="flex">
                     <div>
                       <img src={img} alt="" />
@@ -39,8 +43,10 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
                 
-                <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
+                <Link to="/product&service">
+                  <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mb-[20px] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
                   <div className="flex">
                     <div>
                       <img src={img} alt="" />
@@ -51,8 +57,10 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
                 
-                <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
+                <Link to="/product&service">
+                  <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] pt-[16px] pb-[16px] pl-[32px] pr-[32px] bg-[#0030AD] rounded-tl-[12px] rounded-br-[12px]">
                   <div className="flex">
                     <div>
                       <img src={img} alt="" />
@@ -63,6 +71,7 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
             </div>
             
             <Zoom duration={3000} className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%]">

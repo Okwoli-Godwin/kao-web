@@ -1,9 +1,9 @@
 import Choose from "./Choose"
-import Faqs from "./Faqs"
+// import Faqs from "./Faqs"
 import Featured from "./Featured"
 import Hero from "./Hero"
 import Offerings from "./Offerings"
-import Overview from "./Overview"
+// import Overview from "./Overview"
 import Testimonial from "./Testimonial"
 import Updates from "./Updates"
 
@@ -13,9 +13,9 @@ const HomeScreen = () => {
       <Hero />
       <Featured />
       <Choose />
-      <Overview />
+      {/* <Overview /> */}
       <Offerings />
-      <Faqs />
+      {/* <Faqs /> */}
        <Updates />
        <Testimonial /> 
     </div>

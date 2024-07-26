@@ -10,23 +10,21 @@ const Footer = () => {
       <div className="w-[90%] flex justify-between md:flex-wrap sm:flex-wrap xsm:flex-wrap">
         <div className="w-[40%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col">
           <img src={img} alt="" className="w-[80px] md:w-[100px] sm:w-[100px] xsm:w-[100px]" />
-          <p className="text-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px] mt-[10px] text-[#fff] font-[200] leading-[30px]">
-            Secure wallets provided for sellers, customers, and agents to facilitate seamless transactions and savings for future purchases.
-          </p>
+          
 
           <div className="flex flex-col mt-[23px] md:mb-[25px] sm:hidden xsm:hidden">
             <h4 className="text-[#fff] font-[500] text-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Keep up to date with us</h4>
             <div className="flex items-center mt-[12px]">
-              <div className="w-[28px] h-[28px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
+              <div className="w-[33px] h-[33px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
                 <FaFacebookF />
               </div>
-              <div className="w-[28px] h-[28px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
+              <div className="w-[33px] h-[33px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
                 <FaTwitter />
               </div>
-              <div className="w-[28px] h-[28px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
+              <div className="w-[33px] h-[33px] md:text-[28px] sm:text-[28px] xsm:text-[28px] bg-[#ffffff34] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
                 <FaInstagram />
               </div>
-              <div className="w-[28px] h-[28px] bg-[#ffffff34] md:text-[28px] sm:text-[28px] xsm:text-[28px] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
+              <div className="w-[33px] h-[33px] bg-[#ffffff34] md:text-[28px] sm:text-[28px] xsm:text-[28px] text-[#fff] rounded-full flex justify-center items-center mr-[15px]">
                 <FaThreads />
               </div>
             </div>
