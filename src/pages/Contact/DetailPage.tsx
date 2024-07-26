@@ -22,11 +22,15 @@ const DetailPage = () => {
                         <input placeholder="input your name" type="text" className="h-[45px] w-[380px] border border-[#AEAEAE] rounded-[5px] pl-[10px] outline-none mt-[4px]"/>
                     </div>
                     <div className="flex flex-col mt-[30px]">
+                        <h3 className="text-[20px] font-[500] text-[#676767]">Email</h3>
+                        <input placeholder="input your email" type="email" className="h-[45px] w-[380px] border border-[#AEAEAE] rounded-[5px] pl-[10px] outline-none mt-[4px]"/>
+                    </div>
+                    <div className="flex flex-col mt-[30px]">
                         <h3 className="text-[20px] font-[500] text-[#676767]">Phone Number</h3>
                         <input placeholder="+234" type="text" className="h-[45px] w-[380px] border border-[#AEAEAE] rounded-[5px] pl-[10px] outline-none mt-[4px]"/>
                     </div>
                     <div className="flex flex-col mt-[30px]">
-                        <h3 className="text-[20px] font-[500] text-[#676767]">Phone Number</h3>
+                        <h3 className="text-[20px] font-[500] text-[#676767]">Message</h3>
                         <textarea className="resize-none h-[100px] w-[380px] border border-[#AEAEAE] rounded-[5px] pl-[10px] pt-[12px] outline-none mt-[4px">
                             
                         </textarea>
