@@ -1,4 +1,4 @@
-import img from "../../assets/kaologo.png"
+import img from "../../assets/KAO_Logo_PNG (1).png"
 import { MdMenu } from "react-icons/md";
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom";
@@ -16,10 +16,10 @@ const Header = () => {
   }
 
   return (
-    <div className="w-[100%] h-[70px] flex items-center justify-center fixed  z-[20]">
+    <div className="w-[100%] bg-[#fff] h-[70px] flex items-center justify-center fixed  z-[20]">
       <div className="w-[90%] h-[100%] flex items-center justify-between">
           <Link to="/">
-            <img src={img} alt="" className="h-[40px]"/>
+            <img src={img} alt="" className="h-[85px] ml-[-5px]"/>
           </Link>
         <div className="flex items-center md:hidden sm:hidden xsm:hidden mr-[-25px]">
           <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">Product & Services</h3>
