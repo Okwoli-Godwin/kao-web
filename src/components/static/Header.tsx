@@ -22,13 +22,22 @@ const Header = () => {
             <img src={img} alt="" className="h-[85px] ml-[-5px]"/>
           </Link>
         <div className="flex items-center md:hidden sm:hidden xsm:hidden mr-[-25px]">
-          <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">Product & Services</h3>
+          <NavLink to="/product&service" style={({ isActive }) => ({
+            textDecoration: "none",
+            background: "none",
+            color: isActive ? "#0030AD" : ""
+          })}>
+            <h3 className=" flex flex-col text-[18px] font-[500] mr-[35px] cursor-pointer">Product & Services</h3>
+          </NavLink>
           <NavLink to="/agent" style={({ isActive }) => ({
             textDecoration: "none",
             background: "none",
             color: isActive ? "#0030AD" : ""
           })}>
-            <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">Agent</h3>
+            <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+              <p className="text-[18px] font-[500]">Agent</p>
+              <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100px]"></div>
+            </h3>
           </NavLink>
           <NavLink to="/about" style={({ isActive }) => ({
             textDecoration: "none",
@@ -59,7 +68,9 @@ const Header = () => {
       {show ? (
         <div onClick={closeSidebar} className="w-[100%] h-[100vh] absolute bg-[rgba(0,0,0,0.5)] top-[70px] left-0 hidden md:flex sm:flex xsm:flex justify-end">
         <div className="w-[30%] sm:w-[45%] xsm:w-[55%] h-[100%] bg-[#fff] pt-[20px] pl-[15px] flex flex-col">
-          <h3 className="text-[16px] font-[500] cursor-pointer pb-[20px]">Product & Services</h3>
+          <NavLink to="/product&service">
+            <h3 className=" flex flex-col text-[18px] font-[500] mr-[35px] cursor-pointer">Product & Services</h3>
+          </NavLink>
           <NavLink onClick={closeSidebar} to="/agent" style={({ isActive }) => ({
             textDecoration: "none",
             background: "none",

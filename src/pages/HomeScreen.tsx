@@ -1,10 +1,12 @@
-import Choose from "./Choose"
+
+import Experienced from "./Experienced"
 // import Faqs from "./Faqs"
 import Featured from "./Featured"
 import Hero from "./Hero"
 import Offerings from "./Offerings"
 // import Overview from "./Overview"
 import Testimonial from "./Testimonial"
+import Unlock from "./Unlock"
 import Updates from "./Updates"
 
 const HomeScreen = () => {
@@ -12,7 +14,9 @@ const HomeScreen = () => {
     <div className="overflow-hidden">
       <Hero />
       <Featured />
-      <Choose />
+      <Experienced />
+      <Unlock />
+      {/* <Choose /> */}
       {/* <Overview /> */}
       <Offerings />
       {/* <Faqs /> */}

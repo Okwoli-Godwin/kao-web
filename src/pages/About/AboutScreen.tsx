@@ -1,4 +1,4 @@
-import Updates from "../Updates"
+
 import AboutHero from "./AboutHero"
 import AboutOverview from "./AboutOverview"
 import AboutTeam from "./AboutTeam"
@@ -10,7 +10,6 @@ const AboutScreen = () => {
         <AboutHero />
         <AboutOverview />
         <AboutTeam />
-        <Updates />
     </div>
   )
 }

@@ -2,7 +2,8 @@ import img from "../../assets/Frame 482.png"
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaThreads } from "react-icons/fa6";
+import { FaThreads } from "react-icons/fa6"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -34,15 +35,25 @@ const Footer = () => {
         <div className="w-[45%] md:w-[100%] sm:w-[100%] xsm:w-[100%] md-mt-[60px] flex justify-between sm:flex-wrap xsm:flex-wrap sm:mt-[40px] xsm:mt-[30px] sm:mb-[20px] xsm:mb-[20px]">
           <div className="flex flex-col w-[130px] md:w-[150px] sm:w-[100%] xsm:w-[100%]">
             <h2 className="text-[15px] md:text-[18px] font-[600] text-[#fff] sm:text-[18px] xsm:text-[18px]">ABOUT US</h2>
-            <p className="text-[#fff] font-[200] text-[15px] md:text-[15px] mt-[15px] sm:text-[15px] xsm:text-[15px]">Contact Us</p>
-            <p className="text-[#fff] font-[200] text-[15px] md:text-[15px]  mt-[15px] sm:text-[15px] xsm:text-[15px]">About Us</p>
-            <p className="text-[#fff] font-[200] text-[15px] md:text-[15px]  mt-[15px] sm:text-[15px] xsm:text-[15px]">Product & Services</p>
+            <Link to="/contact">
+              <p className="text-[#fff] font-[200] text-[15px] md:text-[15px] mt-[15px] sm:text-[15px] xsm:text-[15px]">Contact Us</p>
+            </Link>
+            <Link to="/about">
+              <p className="text-[#fff] font-[200] text-[15px] md:text-[15px]  mt-[15px] sm:text-[15px] xsm:text-[15px]">About Us</p>
+            </Link>
+            <Link to="/product&service">
+              <p className="text-[#fff] font-[200] text-[15px] md:text-[15px]  mt-[15px] sm:text-[15px] xsm:text-[15px]">Product & Services</p>
+            </Link>
           </div>
           <div className="flex flex-col w-[100px] sm:w-[100%] xsm:w-[100%] sm:mt-[40px] xsm:mt-[30px] md:w-[150px]">
             <h2 className="text-[15px] font-[600] text-[#fff] md:text-[18px] sm:text-[18px] xsm:text-[18px]">MORE INFO</h2>
             <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">FAQs</p>
-            <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Affiliates</p>
-            <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Agents</p>
+            <Link to="/affliate">
+              <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Affiliates</p>
+            </Link>
+            <Link to="/agent">
+              <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Agents</p>
+            </Link>
           </div>
           <div className="flex flex-col  md:w-[150px] sm:mt-[40px] xsm:mt-[30px]">
             <h2 className="text-[15px] font-[600] text-[#fff] md:text-[18px] sm:text-[18px] xsm:text-[18px]">PEOPLE OF KAO</h2>
