@@ -3,7 +3,7 @@ import { Slide } from "react-awesome-reveal";
 
 const AboutHero = () => {
   return (
-    <div className="w-[100%] flex h-[100%] pt-[150px] sm:pt-[120px] xsm:pt-[120px] md:pt-[70px] flex-col items-center justify-center">
+    <div className="w-[100%] flex h-[100%] pt-[150px] sm:pt-[120px] xsm:pt-[120px] md:pt-[140px] flex-col items-center justify-center">
         <div className="w-[90%] flex items-center">
             <Slide className="w-[48%] sm:w-[100%] xsm:w-[100%] md:w-[100%]" duration={2000}>
                 <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col">
@@ -18,8 +18,8 @@ const AboutHero = () => {
             </Slide>
         </div>
 
-        <div className="w-[100%] h-[450px] md:h-[480px] sm:h-[400px] xsm:h-[370px] mt-[50px] bg-[red]">
-            <img src={img} alt="" className="h-[100%] w-[100%] object-cover"/>
+        <div className="w-[100%] h-[450px] hidden md:flex sm:flex xsm:flex md:h-[400px] sm:h-[400px] xsm:h-[370px] mt-[20px]">
+            <img src={img} alt="" className="w-[100%] object-cover h-[100%]"/>
         </div>
     </div>
   )

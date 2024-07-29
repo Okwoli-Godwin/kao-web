@@ -5,7 +5,7 @@ import img4 from "../../assets/Frame 601.png"
 
 const AboutTeam = () => {
   return (
-    <div className="w-[100%] flex justify-center mt-[100px] md:mt-[30px] sm:mt-[70px] xsm:mt-[70px] flex-col items-center">
+    <div className="w-[100%] flex justify-center mt-[100px] md:mt-[70px] sm:mt-[10px] xsm:mt-[70px] flex-col items-center">
         <div className="w-[90%] flex sm:mt-[120px] xsm:mt-[130px]">
             <h1 className="text-[35px] sm:text-[27px] xsm:text-[25px] font-[600] w-[870px] sm:w-[100%] xsm:w-[100%]">
                 <span className="text-[#0030AD]">Meet our dynamic team</span> dedicated to ensuring a seamless shopping experience:
