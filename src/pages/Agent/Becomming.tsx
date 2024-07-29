@@ -22,7 +22,7 @@ const Becomming = () => {
                     </Slide>
                     <div className="w-[100%] flex items-center mt-[12px] md:mt-[20px]">
                         <img src={img} alt="" className="h-[20px]"/>
-                        <div className="w-[50%] h-[2px] bg-[#0030AD] ml-[13px]"></div>
+                        <div className="w-[50%] sm:w-[100%] xsm:w-[100%] h-[2px] bg-[#0030AD] ml-[13px]"></div>
                     </div>
                     <p className="text-[18px] font-[500] text-[#000] mt-[18px]">
                         Clear guidelines and procedures for store verification, ensuring compliance with quality standards and regulations.
