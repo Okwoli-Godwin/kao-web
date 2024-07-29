@@ -3,7 +3,7 @@ import { Slide } from "react-awesome-reveal";
 
 const AgentHero = () => {
   return (
-    <div className="w-[100%] flex h-[100%] pt-[150px] sm:pt-[120px] xsm:pt-[120px] md:pt-[70px] justify-center">
+    <div className="w-[100%] flex h-[100%] pt-[150px] sm:pt-[120px] xsm:pt-[120px]  md:pt-[150px] justify-center">
         <div className="w-[90%] md:flex-wrap sm:flex-wrap xsm:flex-wrap flex justify-between items-center">
             <Slide className="w-[48%] sm:w-[100%] xsm:w-[100%] md:w-[100%]" duration={2000}>
                 <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col md:mb-[50px] sm:mb-[40px] xsm:mb-[35px]">
@@ -18,9 +18,9 @@ const AgentHero = () => {
             </Slide>
 
             <Slide direction="right" duration={2000} className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%]">
-                <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] overflow-hidden rounded-tl-[15px] rounded-br-[15px]">
-                <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
-            </div>
+                {/* <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] overflow-hidden rounded-tl-[15px] rounded-br-[15px]"> */}
+                <img src={img} alt="" className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-tl-[15px] rounded-br-[15px]"/>
+            {/* </div> */}
             </Slide>
         </div>
     </div>
