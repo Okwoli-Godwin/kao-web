@@ -22,43 +22,90 @@ const Header = () => {
             <img src={img} alt="" className="h-[85px] ml-[-5px]"/>
           </Link>
         <div className="flex items-center md:hidden sm:hidden xsm:hidden mr-[-25px]">
-          <NavLink to="/product&service" style={({ isActive }) => ({
-            textDecoration: "none",
-            background: "none",
-            color: isActive ? "#0030AD" : ""
-          })}>
-            <h3 className=" flex flex-col text-[18px] font-[500] mr-[35px] cursor-pointer">Product & Services</h3>
+          <NavLink
+            to="/product&service"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              background: "none",
+              color: isActive ? "#0030AD" : ""
+            })}
+          >
+            {({ isActive }) => (
+              <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+                <p className="text-[18px] font-[500]">Product & Services</p>
+                {isActive && (
+                  <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100%]"></div>
+                )}
+              </h3>
+            )}
           </NavLink>
-          <NavLink to="/agent" style={({ isActive }) => ({
-            textDecoration: "none",
-            background: "none",
-            color: isActive ? "#0030AD" : ""
-          })}>
-            <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
-              <p className="text-[18px] font-[500]">Agent</p>
-              <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100px]"></div>
-            </h3>
+          <NavLink
+            to="/agent"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              background: "none",
+              color: isActive ? "#0030AD" : ""
+            })}
+          >
+            {({ isActive }) => (
+              <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+                <p className="text-[18px] font-[500]">Agent</p>
+                {isActive && (
+                  <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100%]"></div>
+                )}
+              </h3>
+            )}
           </NavLink>
-          <NavLink to="/about" style={({ isActive }) => ({
-            textDecoration: "none",
-            background: "none",
-            color: isActive ? "#0030AD" : ""
-          })}>
-            <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">About</h3>
+          <NavLink
+            to="/about"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              background: "none",
+              color: isActive ? "#0030AD" : ""
+            })}
+          >
+            {({ isActive }) => (
+              <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+                <p className="text-[18px] font-[500]">About</p>
+                {isActive && (
+                  <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100%]"></div>
+                )}
+              </h3>
+            )}
           </NavLink>
-          <NavLink to="/affiliate" style={({ isActive }) => ({
-            textDecoration: "none",
-            background: "none",
-            color: isActive ? "#0030AD" : ""
-          })}>
-            <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">Affiliate</h3>
+          <NavLink
+            to="/affiliate"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              background: "none",
+              color: isActive ? "#0030AD" : ""
+            })}
+          >
+            {({ isActive }) => (
+              <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+                <p className="text-[18px] font-[500]">Affiliate</p>
+                {isActive && (
+                  <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100%]"></div>
+                )}
+              </h3>
+            )}
           </NavLink>
-          <NavLink to="/contact" style={({ isActive }) => ({
-            textDecoration: "none",
-            background: "none",
-            color: isActive ? "#0030AD" : ""
-          })}>
-            <h3 className="text-[18px] font-[500] mr-[35px] cursor-pointer">Contact us</h3>
+          <NavLink
+            to="/contact"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              background: "none",
+              color: isActive ? "#0030AD" : ""
+            })}
+          >
+            {({ isActive }) => (
+              <h3 className="flex flex-col mr-[35px] cursor-pointer items-center">
+                <p className="text-[18px] font-[500]">Contact us</p>
+                {isActive && (
+                  <div className="w-[5px] h-[5px] bg-[#0030AD] rounded-[100%]"></div>
+                )}
+              </h3>
+            )}
           </NavLink>
         </div>
 
