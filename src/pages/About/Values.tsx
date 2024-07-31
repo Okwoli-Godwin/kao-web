@@ -4,7 +4,7 @@ import img from "../../assets/healthicons_yes.png"
 
 const Values = () => {
   return (
-    <div className="w-[100%] flex  items-center mt-[45px] md:mt-[380px] sm:mt-[480px] xsm:mt-[420px] justify-center">
+    <div className="w-[100%] flex  items-center mt-[45px] md:mt-[380px] sm:mt-[480px] xsm:mt-[500px] justify-center">
         <div className="w-[90%] md:w-[90%] sm:w-[90%] xsm:w-[90%] flex flex-col items-center">
 
             <div className="w-[100%] flex justify-between md:flex-wrap sm:flex-wrap xsm:flex-wrap items-center mt-[50px] sm:mt-[0px] md:mt-[0px] xsm:mt-[0px]">
