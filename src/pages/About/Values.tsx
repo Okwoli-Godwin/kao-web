@@ -14,7 +14,7 @@ const Values = () => {
                 {/* </div> */}
                 </Slide>
                 
-                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:mt-[10px] xsm:mt-[10px] sm:w-[100%] h-[320px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
+                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:mt-[10px] xsm:mt-[-10px] sm:w-[100%] h-[320px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
                     <h3 className="text-[#fff] text-[23px] font-[500]">
                         Values
                     </h3>
