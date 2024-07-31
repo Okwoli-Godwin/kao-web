@@ -4,7 +4,7 @@ import img from "../../assets/healthicons_yes.png"
 
 const Values = () => {
   return (
-    <div className="w-[100%] flex  items-center mt-[45px] md:mt-[380px] sm:mt-[480px] xsm:mt-[500px] justify-center">
+    <div className="w-[100%] flex  items-center mt-[45px] md:mt-[380px] sm:mt-[430px] xsm:mt-[500px] justify-center">
         <div className="w-[90%] md:w-[90%] sm:w-[90%] xsm:w-[90%] flex flex-col items-center">
 
             <div className="w-[100%] flex justify-between md:flex-wrap sm:flex-wrap xsm:flex-wrap items-center mt-[50px] sm:mt-[0px] md:mt-[0px] xsm:mt-[0px]">
@@ -14,7 +14,7 @@ const Values = () => {
                 {/* </div> */}
                 </Slide>
                 
-                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:w-[100%] h-[320px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
+                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:mt-[10px] xsm:mt-[10px] sm:w-[100%] h-[320px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
                     <h3 className="text-[#fff] text-[23px] font-[500]">
                         Values
                     </h3>
