@@ -1,5 +1,5 @@
 import img from "../../assets/KAO_Logo_PNG (1).png"
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdClose } from "react-icons/md";
 import { useState } from "react"
 import { NavLink, Link } from "react-router-dom";
 
@@ -109,11 +109,17 @@ const Header = () => {
           </NavLink>
         </div>
 
-        <MdMenu onClick={ToggleShow} className="hidden md:flex sm:flex xsm:flex  text-[24px] cursor-pointer"/>
+        {show ? (
+          <MdClose onClick={ToggleShow} className="hidden md:flex sm:flex xsm:flex text-[24px] cursor-pointer" />
+        ) : (
+          <MdMenu onClick={ToggleShow} className="hidden md:flex sm:flex xsm:flex text-[24px] cursor-pointer" />
+        )}
       </div>
 
       {show ? (
-        <div onClick={closeSidebar} className="w-[100%] h-[100vh] absolute bg-[rgba(0,0,0,0.5)] top-[70px] left-0 hidden md:flex sm:flex xsm:flex justify-end">
+        <div onClick={closeSidebar} className={`fixed w-full h-screen bg-[rgba(0,0,0,0.5)] top-[70px] left-0 transition-transform duration-300 ease-in-out ${
+          show ? "transform translate-x-0" : "transform translate-x-full"
+        } md:flex sm:flex xsm:flex justify-end`}>
         <div className="w-[30%] sm:w-[45%] xsm:w-[55%] h-[100%] bg-[#fff] pt-[20px] pl-[15px] flex flex-col">
           <NavLink to="/product&service" style={({ isActive }) => ({
             textDecoration: "none",
@@ -158,32 +164,3 @@ const Header = () => {
 }
 
 export default Header
-
-// import img from "../../assets/kaologo.png"
-// import { NavLink } from "react-router-dom";
-// import {useState} from "react"
-
-// const Header = () => {
-
-//   const [show, setShow] = useState(false)
-
-//    const ToggleShow = () => {
-//      setShow(!show)
-//   }
-
-//    const closeSidebar = () => {
-//      setShow(false)
-//    }
-
-//   return (
-//     <div className="w-[100%] h-[70px] bg-[red] flex justify-center items-center fixed z-[20]">
-//       <div className="w-[90%] h-[100%] bg-[green] flex justify-center items-center">
-//         {/* <NavLink onClick={closeSidebar} to="/" className="" style={{textDecoration: "none", background: "none", }}> */}
-//           <img src={img} alt="" className="h-[40px]" />
-//         {/* </NavLink> */}
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Header
