@@ -1,6 +1,7 @@
 
 import AffiliateHero from "./AffiliateHero"
 import CanBecome from "./CanBecome"
+import Popular from "./Popular"
 
 
 const AffiliateScreen = () => {
@@ -8,6 +9,7 @@ const AffiliateScreen = () => {
     <div>
         <AffiliateHero />
         <CanBecome />
+        <Popular />
     </div>
   )
 }
