@@ -1,5 +1,6 @@
 
 import AffiliateHero from "./AffiliateHero"
+import Benefits from "./Benefits"
 import Bloggers from "./Bloggers"
 import CanBecome from "./CanBecome"
 import Popular from "./Popular"
@@ -12,6 +13,7 @@ const AffiliateScreen = () => {
         <CanBecome />
         <Popular />
         <Bloggers />
+        <Benefits />
     </div>
   )
 }
