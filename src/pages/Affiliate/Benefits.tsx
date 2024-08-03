@@ -10,7 +10,7 @@ const Benefits = () => {
                         Benefits of a KAO affiliate marketer
             </h2>
             
-            <div className="w-[48%] sm:mt-[25px] xsm:mt-[25px] md:mt-[40px] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[450px] relative rounded-tr-[12px] rounded-bl-[12px] overflow-hidden">
+            <div className="w-[48%] sm:mt-[25px] xsm:mt-[25px] md:mt-[40px] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[450px] relative rounded-tr-[12px] rounded-bl-[12px] hidden md:flex sm:flex xsm:flex overflow-hidden">
                     <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
                 </div>
 
