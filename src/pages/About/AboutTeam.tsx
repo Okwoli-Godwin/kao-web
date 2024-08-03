@@ -19,11 +19,11 @@ const AboutTeam = () => {
             className="w-[20%] sm:h-[320px] xsm:h-[320px] relative md:w-[49%] sm:w-full xsm:w-full md:mb-8 sm:mb-8 xsm:mb-8 h-full bg-blue group"
           >
             <img src={image} alt="" className="w-full h-full object-cover" />
-            <div className="absolute h-[135px] w-[270px] bg-[#0030AD] bottom-4 rounded-tl-[7px] rounded-br-[7px] right-2 border-r-[3px] border-[#DE801C] flex pl-2 pr-2 pt-2 flex-col sm:opacity-100 md:opacity-100 xsm:opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute py-[12px] px-[12px] w-[220px] bg-[#0030AD] bottom-4 rounded-tl-[7px] rounded-br-[7px] right-[12px] border-r-[3px] border-[#DE801C] flex pl-2 pr-2 pt-2 flex-col sm:opacity-100 md:opacity-100 xsm:opacity-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <h4 className="font-[400] text-[#fff] text-[18px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Ayomide Abin</h4>
               <p className="text-[14px] font-[300] text-[#fff]">Founder</p>
               <div className="w-[80px] h-[1px] bg-[#fff] mt-2"></div>
-              <p className="text-[15px] font-[400] text-[#fff] mt-3">
+              <p className="text-[14px] font-[400] text-[#fff] mt-3">
                 A visionary entrepreneur passionate about revolutionizing e-commerce
               </p>
             </div>

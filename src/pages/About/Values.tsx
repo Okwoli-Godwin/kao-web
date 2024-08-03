@@ -8,10 +8,10 @@ const Values = () => {
 
             <div className="w-[100%] flex justify-between md:flex-wrap sm:flex-wrap xsm:flex-wrap items-center mt-[50px] sm:mt-[0px] md:mt-[0px] xsm:mt-[0px]">
                 {/* <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] overflow-hidden rounded-tl-[15px] rounded-br-[15px]"> */}
-                <img src={img2} alt="" className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[320px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
+                <img src={img2} alt="" className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[370px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
                 {/* </div> */}
                 
-                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:mt-[10px] xsm:mt-[-10px] sm:w-[100%] h-[320px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
+                <div className="w-[49%] md:w-[100%] md:mt-[20px] sm:mt-[10px] xsm:mt-[-10px] sm:w-[100%] h-[370px] sm:h-[100%] xsm:h-[100%] p-[20px] bg-[#0030AD] rounded-[13px] xsm:w-[100%] flex flex-col">
                     <h3 className="text-[#fff] text-[23px] font-[500]">
                         Values
                     </h3>

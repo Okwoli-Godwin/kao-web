@@ -14,7 +14,7 @@ const AboutOverview = () => {
 
             <div className="flex flex-col h-[570px] w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] mt-[15px]">
 
-                <div className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[500px] sm:h-[380px] xsm:h-[380px] rounded-[12px] overflow-hidden">
+                <div className="w-[48%] hidden md:flex sm:flex xsm:flex md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[500px] sm:h-[380px] xsm:h-[380px] rounded-[12px] overflow-hidden">
                 <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
                 </div>
 
@@ -44,7 +44,7 @@ const AboutOverview = () => {
                 </div>
             </div>
             
-                <div className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[500px] sm:h-[380px] xsm:h-[380px] rounded-[12px] overflow-hidden">
+                <div className="w-[48%] md:hidden sm:hidden xsm:hidden md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[500px] sm:h-[380px] xsm:h-[380px] rounded-[12px] overflow-hidden">
                 <img src={img} alt="" className="w-[100%] h-[100%] object-cover"/>
             </div>
         </div>
