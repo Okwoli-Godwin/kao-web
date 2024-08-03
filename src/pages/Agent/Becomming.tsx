@@ -1,6 +1,7 @@
 import img from "../../assets/Frame 531 (3).png"
 import img2 from "../../assets/Frame 655.png"
 
+
 const Becomming = () => {
   return (
     <div className="w-[100%] flex  items-center mt-[120px] sm:mt-[80px] xsm:mt-[70px] justify-center">
@@ -10,13 +11,15 @@ const Becomming = () => {
             </h1>
 
             <div className="w-[100%] flex justify-centern items-center mt-[50px]">
-                <div className="w-[49%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col">
+                <div className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col">
                     <h2 className="text-[28px] sm:text-[23px] xsm:text-[23px] font-[600] text-[#0030AD]">
                         1. Verification Process
                     </h2>
+
                     {/* <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] overflow-hidden rounded-tl-[15px] rounded-br-[15px]"> */}
-                    <img src={img2} alt="" className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
+                    <img src={img2} alt="" className="w-[48%] hidden md:flex sm:flex xsm:flex md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
                     {/* </div> */}
+
                     <div className="w-[100%] flex items-center mt-[12px] md:mt-[20px]">
                         <img src={img} alt="" className="h-[20px]"/>
                         <div className="w-[50%] sm:w-[100%] xsm:w-[100%] h-[2px] bg-[#0030AD] ml-[13px]"></div>
@@ -27,7 +30,7 @@ const Becomming = () => {
                 </div>
 
                 {/* <div className="w-[100%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] overflow-hidden rounded-tl-[15px] rounded-br-[15px]"> */}
-                <img src={img2} alt="" className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] h-[400px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
+                <img src={img2} alt="" className="w-[48%] md:w-[100%] sm:w-[100%] md:hidden sm:hidden xsm:hidden xsm:w-[100%] h-[400px] xsm:h-[250px] sm:h-[280px] object-cover sm:object-contain xsm:object-contain rounded-[15px]"/>
                 {/* </div> */}
             </div>
         </div>
