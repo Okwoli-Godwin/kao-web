@@ -6,6 +6,7 @@ import AboutScreen from "../pages/About/AboutScreen"
 import AffiliateScreen from "../pages/Affiliate/AffiliateScreen"
 import ContactScreen from "../pages/Contact/ContactScreen"
 import Product_services from "../pages/Product/Product_services"
+import ScrollToTop from "./ScrollToTop"
 
 export const Element = createBrowserRouter([
     {
@@ -14,27 +15,57 @@ export const Element = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <HomeScreen />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <HomeScreen />
+                    </>
+                )
             },
             {
                 path: "/agent",
-                element: <AgentScreen />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <AgentScreen />
+                    </>
+                )
             },
             {
                 path: "/product&service",
-                element: <Product_services />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <Product_services />
+                    </>
+                )
             },
             {
                 path: "/about",
-                element: <AboutScreen />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <AboutScreen />
+                    </>
+                )
             },
             {
                 path: "/affiliate",
-                element: <AffiliateScreen />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <AffiliateScreen />
+                    </>
+                )
             },
             {
                 path: "/contact",
-                element: <ContactScreen />
+                element: (
+                    <>
+                        <ScrollToTop />
+                        <ContactScreen />
+                    </>
+                )
             }
         ]
     }
