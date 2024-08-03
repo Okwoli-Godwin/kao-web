@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="flex flex-col w-[100px] sm:w-[100%] xsm:w-[100%] sm:mt-[40px] xsm:mt-[30px] md:w-[150px]">
             <h2 className="text-[15px] font-[600] text-[#fff] md:text-[18px] sm:text-[18px] xsm:text-[18px]">MORE INFO</h2>
             <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">FAQs</p>
-            <Link to="/affliate">
+            <Link to="/affiliate">
               <p className="text-[#fff] font-[200] text-[15px] mt-[15px] md:text-[15px] sm:text-[15px] xsm:text-[15px]">Affiliates</p>
             </Link>
             <Link to="/agent">
