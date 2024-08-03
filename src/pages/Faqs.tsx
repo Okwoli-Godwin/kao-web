@@ -1,6 +1,5 @@
 import img from "../assets/Frame 546.png"
 import Accordion from "../components/Ui/Accordion"
-import { Fade } from "react-awesome-reveal";
 
 const Faqs = () => {
   return (
@@ -10,16 +9,14 @@ const Faqs = () => {
 
         <div className="w-[100%] flex justify-between mt-[40px] md:flex-wrap sm:flex-wrap xsm:flex-wrap">
           <div className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] flex flex-col">
-            <Fade direction="up" duration={2000}>
+
               <h3 className="w-[100%] text-[21px] md:text-[21px] sm:text-[20px] xsm:text-[20px] md:font-[600] font-[600]">
               We are <span className="text-[#0030AD]">always here</span> for your back up
             </h3>
             <p className="leading-[30px] text-[18px] font-[500] md:text-[18px] sm:text-[16px] xsm:text-[15px] w-[100%] mt-[20px]">
               KAO Online Stores aims to serve a broad and diverse audience, catering to individuals of all ages, backgrounds, and interests.
             </p>
-            </Fade>
 
-            <Fade direction="up" duration={2000}>
               <div className="w-[100%] flex flex-col mt-[30px]">
               <div className="flex ">
                 {/* <div> */}
@@ -47,7 +44,6 @@ const Faqs = () => {
                 </div>
               </div>
             </div>
-            </Fade>
           </div>
 
           <div className="w-[48%] md:w-[100%] sm:w-[100%] xsm:w-[100%] md:mt-[25px] sm:mt-[25px] xsm:mt-[25px]">
